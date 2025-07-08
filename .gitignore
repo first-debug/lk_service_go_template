@@ -1,0 +1,5 @@
+config_*.yml
+!config_template.yml
+
+.env*
+!.env.template

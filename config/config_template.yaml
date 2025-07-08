@@ -1,0 +1,11 @@
+url: ""
+port: 80
+logger:
+  level: DEBUG
+  show_path_call: false
+ping_time: # time.Duration
+shutdown:
+  period: # time.Duration
+  hard-period: # time.Duration
+readiness:
+  drain_delay: # time.Duration
