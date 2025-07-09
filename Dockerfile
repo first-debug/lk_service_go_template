@@ -20,7 +20,6 @@ COPY --from=builder /build-dir/app ./start
 # -v ./config:/app/config
 # --env-file .env
 
-
 RUN addgroup -S appgroup && adduser -S appuser -G appgroup
 USER appuser
 
